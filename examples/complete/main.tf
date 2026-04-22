@@ -4,14 +4,15 @@ provider "alicloud" {
 
 
 module "vpc" {
-  source             = "alibaba/vpc/alicloud"
+  source  = "alibaba/vpc/alicloud"
+  version = "2.0.0"
+
   create             = true
   vpc_name           = "tf-test-clickhouse"
   vpc_cidr           = "172.16.0.0/16"
   vswitch_name       = "tf-test-clickhouse"
   vswitch_cidrs      = ["172.16.0.0/21"]
   availability_zones = ["cn-beijing-k"]
-  version            = ">= 1.8.0"
 }
 
 module "complete" {

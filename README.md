@@ -72,12 +72,13 @@ module "complete" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.3 |
+| <a name="requirement_alicloud"></a> [alicloud](#requirement\_alicloud) | >= 1.200.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_alicloud"></a> [alicloud](#provider\_alicloud) | n/a |
+| <a name="provider_alicloud"></a> [alicloud](#provider\_alicloud) | >= 1.200.0 |
 
 ## Modules
 
@@ -87,10 +88,10 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [alicloud_click_house_enterprise_db_cluster.cluster](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/click_house_enterprise_db_cluster) | resource |
-| [alicloud_click_house_enterprise_db_cluster_account.accounts](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/click_house_enterprise_db_cluster_account) | resource |
-| [alicloud_click_house_enterprise_db_cluster_backup_policy.backup_policy](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/click_house_enterprise_db_cluster_backup_policy) | resource |
-| [alicloud_click_house_enterprise_db_cluster_security_ip.security_ip_groups](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/click_house_enterprise_db_cluster_security_ip) | resource |
+| [alicloud_click_house_enterprise_db_cluster.cluster](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/click_house_enterprise_db_cluster) | resource |
+| [alicloud_click_house_enterprise_db_cluster_account.accounts](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/click_house_enterprise_db_cluster_account) | resource |
+| [alicloud_click_house_enterprise_db_cluster_backup_policy.backup_policy](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/click_house_enterprise_db_cluster_backup_policy) | resource |
+| [alicloud_click_house_enterprise_db_cluster_security_ip.security_ip_groups](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/click_house_enterprise_db_cluster_security_ip) | resource |
 
 ## Inputs
 
